@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="skBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3499cd"/>
+      <stop offset="100%" stop-color="#1f6992"/>
+    </linearGradient>
+    <linearGradient id="skOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f89939"/>
+      <stop offset="100%" stop-color="#e0711e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="44" cy="52" r="32" fill="url(#skBlue)" opacity="0.9"/>
+  <circle cx="84" cy="76" r="32" fill="url(#skOrange)" opacity="0.9"/>
+  <path d="M44 52 L84 76" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="44" cy="52" r="8" fill="#ffffff"/>
+  <circle cx="84" cy="76" r="8" fill="#ffffff"/>
+  <text x="64" y="118" font-family="sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">scikit-learn</text>
+</svg>
